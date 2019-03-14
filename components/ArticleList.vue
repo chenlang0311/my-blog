@@ -58,7 +58,10 @@
     methods: {
       articlesDetailsFn: function(id){
         this.$router.push({ path: `/details/${id}`});
-      }
+      },
+      getData(){
+        console.log("getData")
+      },
     }
   }
 </script>
