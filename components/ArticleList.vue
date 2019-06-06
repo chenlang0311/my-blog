@@ -5,7 +5,7 @@
         <div @click="articlesDetailsFn(item._id)">
           <div class="box-card articles-box" >
             <div class="post-time">
-              <span class="post-timecon">{{new Date(item.date).format('yyyy-MM-dd')}}</span>
+              <span class="post-timecon">{{new Date(item.date).format('yyyy-MM-dd hh:mm:ss')}}</span>
             </div>
             <div class="post-title" >
               <h1>{{item.title}}</h1>
@@ -42,26 +42,23 @@
     },
     data() {
       return {
-        defaultPoster: 'http://img.binlive.cn/upload/1508147650899',
+        defaultPoster: 'https://blog.77dress.cn/static/js.png',
         posters: {
-          javascript: 'http://img.binlive.cn/upload/1508147650899',
-          node: 'http://img.binlive.cn/upload/1508147665291',
-          css: 'http://img.binlive.cn/upload/1508147554750',
-          html5: 'http://img.binlive.cn/upload/1508147586798',
-          jquery: 'http://img.binlive.cn/upload/1508147631388',
-          vue: 'http://img.binlive.cn/upload/1508147700511',
-          git: 'http://img.binlive.cn/upload/1508147609623',
-          react: 'http://img.binlive.cn/upload/1525527435206react.png'
+          javascript: 'https://blog.77dress.cn/static/js.png',
+          node: 'https://blog.77dress.cn/static/node.png',
+          CSS: 'https://blog.77dress.cn/static/css.png',
+          HTML: 'https://blog.77dress.cn/static/html.png',
+          jquery: 'https://blog.77dress.cn/static/logo.png',
+          VUE: 'https://blog.77dress.cn/static/vue.png',
+          git: 'https://blog.77dress.cn/static/git.png',
+          React: 'https://blog.77dress.cn/static/react.png'
         }
       }
     },
     methods: {
       articlesDetailsFn: function(id){
         this.$router.push({ path: `/details/${id}`});
-      },
-      getData(){
-        console.log("getData")
-      },
+      }
     }
   }
 </script>

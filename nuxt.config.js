@@ -51,7 +51,6 @@ module.exports = {
       }]]],
       comments: true
     },
-    publicPath:"/.nuxt/dist/",
     /*
     ** Run ESLint on save
     */
@@ -70,10 +69,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/proxy'
   ],
-  // proxy: [
-  //   ['/api', { target: 'http://localhost:3080' }]
-  // ]
   proxy: [
-    ['/api', { target: 'http://binlive.cn:3080' }]
+    ['/api', { target: 'https://admin.77dress.cn' }]
   ]
 }

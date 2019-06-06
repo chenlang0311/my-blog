@@ -6,13 +6,10 @@
           <div class="nav-bar-body">
             <div class="nav-bar-inner">
               <div id="logo">
-                <img src="http://img.binlive.cn/upload/1525010252092" alt="binlive个人技术博客vue、react、node">
+                <img src="https://blog.77dress.cn/static/logo.png" alt="个人技术博客vue、react、node">
               </div>
             </div>
             <div>
-              <a href="http://admin.binlive.cn/my" target="_blank" id="avatar">
-                <img src="http://img.binlive.cn/upload/1507976661815" alt="">
-              </a>
               <div id="search">
                 <el-input  placeholder="搜索" :on-icon-click="searchArticle"  v-model="search" @keyup.enter.native="keyupsearch($event)">
                   <i slot="prefix" class="el-input__icon el-icon-search"></i>
@@ -25,8 +22,6 @@
               <el-tabs v-model="activeName" @tab-click="handleClick">
                 <el-tab-pane  v-for="item in taglists" :key=item :label='item' :name="item" data-ripple></el-tab-pane>
               </el-tabs>
-              <el-button type="primary" icon="el-icon-menu" id="gomobilebtn" @click="gimobile" style="margin-right: 10px">课程</el-button>
-              <el-button type="primary" icon="el-icon-edit" id="addacticlebtn" @click="loginpage">发稿</el-button>
             </template>
           </div>
         </el-col>
@@ -37,7 +32,7 @@
         </div>
       </el-col>
     </el-row>
-    <div class="footer">京ICP备17044565号</div>
+    <div class="footer">粤ICP备18149555号</div>
   </div>
 </template>
 <script>

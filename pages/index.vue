@@ -24,10 +24,10 @@
     name: 'latestArticles',
     head () {
       return {
-        title: 'binlive',
+        title: 'lang',
         meta: [
-          { hid: 'description', name: 'description', content: 'binlive前端开发,前端,web前端开发,node,vue,react,webpack,git' },
-          { name: 'keywords', content: 'binlive前端开发,前端,web前端开发,node,vue,react,webpack,git' }
+          { hid: 'description', name: 'description', content: '前端开发,前端,web前端开发,node,vue,react,webpack,git' },
+          { name: 'keywords', content: '前端开发,前端,web前端开发,node,vue,react,webpack,git' }
         ]
       }
     },

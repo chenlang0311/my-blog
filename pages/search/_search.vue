@@ -7,7 +7,7 @@
       </div>
       <div class="notfound" :class="{'shownotfound':notfound}">
         <img src="http://img.binlive.cn/upload/1525014468729"
-             alt="binlive个人技术博客vue、react、node">
+             alt="个人技术博客vue、react、node">
       </div>
       <ArticleList :articleList="searchList"/>
     </div>

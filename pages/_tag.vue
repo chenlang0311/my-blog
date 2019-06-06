@@ -6,7 +6,7 @@
     <ArticleList :articleList="tagList"/>
     <div class="notfound" :class="{'shownotfound':notfound}">
       <img src="http://img.binlive.cn/upload/1525014468729"
-           alt="binlive个人技术博客vue、react、node">
+           alt="个人技术博客vue、react、node">
     </div>
     <div class="scrollbottomtip" >
       <p :class="{scrolltip: scrolltip}" style="position:relative;top:-15px;height:24px"></p>
