@@ -11,7 +11,7 @@
     </div>
     <div class="detail-body" v-html="markHtml"></div>
     <div class="detail-footer">
-      <Comment :comment="articleDetails.comment" :authUrl="authUrl" />
+      <!-- <Comment :comment="articleDetails.comment" :authUrl="authUrl" /> -->
     </div>
     <div v-show="background" class="background">
       <div class="img-wrapper">
