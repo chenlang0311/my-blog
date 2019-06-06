@@ -51,7 +51,8 @@
           jquery: 'https://blog.77dress.cn/static/logo.png',
           VUE: 'https://blog.77dress.cn/static/vue.png',
           git: 'https://blog.77dress.cn/static/git.png',
-          React: 'https://blog.77dress.cn/static/react.png'
+          React: 'https://blog.77dress.cn/static/react.png',
+          Nginx:"https://blog.77dress.cn/static/nginx.jpg"
         }
       }
     },
