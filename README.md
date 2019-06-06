@@ -56,7 +56,7 @@ npm run list
 
 ## 在线预览
 
-See [BinLive](http://binlive.cn "BinLive").
+See [Lang](http://blog.77dress.cn "Lang").
 ## 本地预览
 想要在本地开发环境运行完整线上模式，可以转发调用binlive线上环境接口。
 修改`nuxt.config.js`文件
@@ -67,7 +67,7 @@ proxy: [
 ]
 // 修该成binlive线上地址
 proxy: [
-  ['/api', { target: 'http://binlive.cn:3080' }]
+  ['/api', { target: 'https://admin.77dress.cn' }]
 ]
 ```
 修改`plugins/axios.js`文件
@@ -78,10 +78,10 @@ if (process.server) {
 }
 // 修该成binlive线上地址
 if (process.server) {
-  options.baseURL = 'http://binlive.cn:3080'
+  options.baseURL = 'https://admin.77dress.cn'
 }
 ```
 ## commit
 由于spa对于seo不友好，重构了之前使用vue的spa形式的博客，使用[nuxt.js](https://nuxtjs.org "nuxt.js")
 ## 博客后端
-博客的后端以及后台管理系统项目为[博客后端](https://github.com/Hzy0913/blog-server "博客后端")项目。
+博客的后端以及后台管理系统项目为[博客后端](https://github.com/chenlang0311/blog-server "博客后端")项目。
