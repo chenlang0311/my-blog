@@ -55,7 +55,6 @@
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();
-      console.log("%c", "background: url(http://img.binlive.cn/upload/1525010252092) no-repeat center;padding-left:300px;padding-bottom: 200px")
       this.taglist();
       var winwinth=window.innerWidth
       if(this.$route.params.tag === undefined && this.$route.fullPath === '/'){
@@ -96,7 +95,7 @@
         this.$router.push({ path: `/search/${this.search}`});
       },
       loginpage(){
-        window.open("http://admin.binlive.cn/admin");
+        window.open("https://admin.77dress.cn");
       }
     }
   }

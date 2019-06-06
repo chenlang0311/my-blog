@@ -91,7 +91,7 @@
         return this.user ? this.user.html_url : this.authUrl;
       },
       avatar() {
-        return this.user ? this.user.avatar_url : 'http://img.binlive.cn/upload/1525002348985';
+        return this.user ? this.user.avatar_url : 'https://blog.77dress.cn/static/logo.png';
       },
     },
     created() {

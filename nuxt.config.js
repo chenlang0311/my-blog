@@ -5,12 +5,12 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'binlive',
+    title: 'Lang',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'keywords', content: 'binlive博客 vue ssr blog,前端开发,前端,web开发,node,vue,react,webpack,git' },
-      { hid: 'description', name: 'description', content: 'binlive博客 vue ssr blog,前端开发,前端,web开发,node,vue,react,webpack,git' }
+      { name: 'keywords', content: '博客 vue ssr blog,前端开发,前端,web开发,node,vue,react,webpack,git' },
+      { hid: 'description', name: 'description', content: '博客 vue ssr blog,前端开发,前端,web开发,node,vue,react,webpack,git' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

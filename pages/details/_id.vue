@@ -77,7 +77,7 @@
     },
     head () {
       return {
-        title: this.articleDetails.title || 'binlive',
+        title: this.articleDetails.title || 'lang',
         meta: [
           { hid: 'description', name: 'description', content: `${this.articleDetails.title},前端开发,前端,web前端开发,node,vue,react,webpack,git` },
           { name: 'keywords', content: this.articleDetails.title }
@@ -103,7 +103,7 @@
     computed: {
       authUrl() {
         const id = this.$route.params.id;
-        return `https://github.com/login/oauth/authorize?client_id=ee9b0ae4553f4fb449bf&state=${id}&redirect_uri=http://www.binlive.cn:3080/api/oauth`;
+        return `https://github.com/login/oauth/authorize?client_id=ee9b0ae4553f4fb449bf&state=${id}&redirect_uri=https://blog.77dress.cn/api/oauth`;
       }
     },
     components: {
