@@ -3,7 +3,7 @@
 ## 安装
 
 ```
- git clone git@github.com:Hzy0913/my-blog.git
+ git clone https://github.com/chenlang0311/my-blog.git
 ```
 安装包依赖
 ```
@@ -65,7 +65,7 @@ See [Lang](http://blog.77dress.cn "Lang").
 proxy: [
   ['/api', { target: 'http://localhost:3080' }]
 ]
-// 修该成binlive线上地址
+// 该成博客线上地址
 proxy: [
   ['/api', { target: 'https://admin.77dress.cn' }]
 ]
@@ -76,7 +76,7 @@ proxy: [
 if (process.server) {
   options.baseURL = 'http://localhost:3080'
 }
-// 修该成binlive线上地址
+// 修该成博客线上地址
 if (process.server) {
   options.baseURL = 'https://admin.77dress.cn'
 }
