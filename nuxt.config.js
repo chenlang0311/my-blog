@@ -51,6 +51,7 @@ module.exports = {
       }]]],
       comments: true
     },
+    publicPath:".nuxt",
     /*
     ** Run ESLint on save
     */
