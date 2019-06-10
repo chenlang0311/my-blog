@@ -3,7 +3,7 @@
     <div class="detail-header">
       <h1>{{articleDetails.title}}</h1>
       <div class="time">
-        {{new Date(articleDetails.date).format('yyyy-MM-dd')}}
+        {{new Date(articleDetails.date).format('yyyy-MM-dd hh:mm:ss')}}
       </div>
       <div class="detail-body-tag">
         <span v-for="list in articleDetails.label" :key="list" class="tag">{{list}}</span>
