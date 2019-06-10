@@ -87,7 +87,7 @@
         }
       },
       handleScroll() {
-        const jrscrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollT;
+        const jrscrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
         let scrollBottom = document.body.clientHeight - window.innerHeight - jrscrollTop;
         if (scrollBottom < 30) {
           if (this.ScrollFirst) {
