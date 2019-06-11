@@ -2,11 +2,11 @@
   <div>
     <div id="searchPage" class="container">
       <div class="tagtitle">
-        <p class="fadetitle">搜索有关于<span style="margin-left:10px;">"{{search}}"</span>
+        <p class="fadetitle">搜索有关于<span style="margin-left:10px;">"{{search}}"</span>的结果
         </p>
       </div>
       <div class="notfound" :class="{'shownotfound':notfound}">
-        <img src="http://img.binlive.cn/upload/1525014468729"
+        <img src="/static/not-found.png"
              alt="个人技术博客vue、react、node">
       </div>
       <ArticleList :articleList="searchList"/>
