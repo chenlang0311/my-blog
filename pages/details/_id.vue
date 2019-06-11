@@ -149,7 +149,7 @@
    padding-bottom: 30px;
    overflow: hidden;
   }
-  .detail-header>h1{ font-size:24px; color:#fff;font-weight:900;padding-top:30px;text-align:left;padding:0 20px;
+  .detail-header>h1{ font-size:24px; color:#fff;font-weight:900;text-align:left;padding:30px 20px 0;
     word-wrap: break-word;}
   .detail-header .time { font-size:14px;color:#f2f2f2; margin-top:10px;margin-bottom:4px; text-align:left;padding-left:22px; }
   .detail-body-tag{padding-left:22px;overflow: hidden;}
