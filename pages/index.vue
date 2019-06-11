@@ -1,5 +1,4 @@
 <template>
-  <div>
     <div class="grid-content bg-purple container">
       <div class="tagtitle">
         <p :class="{fadetitle: fadetitle}">最新</p>
@@ -14,7 +13,6 @@
       </div>
       <p :class="{'hide':lastpage}" class="lastpagetip">我也是有底线的...</p>
     </div>
-  </div>
 </template>
 <script>
   import axios from '~/plugins/axios'

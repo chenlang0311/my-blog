@@ -1,22 +1,25 @@
 <template>
-  <div id="tag" class="container">
-    <div class="tagtitle">
-      <p :class="{fadetitle: fadetitle}">{{tagtitle}}</p>
-    </div>
-    <ArticleList :articleList="tagList"/>
-    <div class="notfound" :class="{'shownotfound':notfound}">
-      <img src="http://img.binlive.cn/upload/1525014468729"
-           alt="个人技术博客vue、react、node">
-    </div>
-    <div class="scrollbottomtip" >
-      <p :class="{scrolltip: scrolltip}" style="position:relative;top:-15px;height:24px"></p>
-      <div :class="{scrollload:scrollload, scrollloadlast:scrollloadlast}">
-        <p>数据加载中</p>
-        <i class="el-icon-loading"></i>
-      </div>
-    </div>
-    <p :class="{'hide':lastpage}" class="lastpagetip">没有更多数据了...</p>
-  </div>
+  
+      <div id="tag" class="container">
+            <div class="tagtitle">
+              <p :class="{fadetitle: fadetitle}">{{tagtitle}}</p>
+            </div>
+            <ArticleList :articleList="tagList"/>
+            <div class="notfound" :class="{'shownotfound':notfound}">
+              <img src="http://img.binlive.cn/upload/1525014468729"
+                  alt="个人技术博客vue、react、node">
+            </div>
+            <div class="scrollbottomtip" >
+              <p :class="{scrolltip: scrolltip}" style="position:relative;top:-15px;height:24px"></p>
+              <div :class="{scrollload:scrollload, scrollloadlast:scrollloadlast}">
+                <p>数据加载中</p>
+                <i class="el-icon-loading"></i>
+              </div>
+            </div>
+            <p :class="{'hide':lastpage}" class="lastpagetip">没有更多数据了...</p>
+          </div>
+
+
 </template>
 
 <script>
